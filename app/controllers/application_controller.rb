@@ -14,5 +14,6 @@ class App < Sinatra::Base
       @team_members = params[:team][:members]
       
       erb :team
+      
     end 
 end
